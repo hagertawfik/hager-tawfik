@@ -1,7 +1,0 @@
-hello my name is hager 
-print ("hello my master")
-I love to make brancg
-i can write in it
-i will share
-ieee 20
-hello my pull thing

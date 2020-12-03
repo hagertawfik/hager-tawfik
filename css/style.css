@@ -1,13 +1,16 @@
+
 body{
-    background-image: url(../images/background2.webp);
-    background-attachment: fixed;
-  
-   
+  background-image: url(../images/background2.webp);
+  background-attachment: fixed;
+
+ 
 }
 .container{
-    width: 1170px;
-      margin: auto;
-  }
+  width: 1170px;
+    margin: auto;
+}
+/*this is the header and item1*/ 
+
  
   .header{
     padding-top: 40px;
@@ -26,6 +29,9 @@ body{
   .item1 a span{
       color: rgb(15, 24, 26);
   }
+  /*close of div*/
+
+  /*div for image*/
   .contant{
       padding-top: 50px ;
     
@@ -33,7 +39,10 @@ body{
    img{
     width: 100%;
   }
- 
+   /*close of the div*/
+
+     /*div for h2 and pragraph*/
+
   .contant1 .item3{
       background-color: #fff;
      padding: 40 20;
@@ -50,6 +59,11 @@ body{
       letter-spacing: 3px;
       text-transform: uppercase;
   }
+
+/*-the end of div*/
+
+/*pragraph*/
+
   .contant2 .item4{
     background-color: #ece4e4;
     padding: 50 ;
@@ -63,7 +77,9 @@ body{
      color: rgb(124, 136, 139);
       
   }
+/*the end of div*/
 
+/*this div consistise of header , pragraph and four image*/
   .contant3{
     background-color: rgb(26, 27, 26);
     height: 1000px;
@@ -109,6 +125,9 @@ body{
   background-color: #c2c4c9;
   margin: auto;
 }
+/*close of the div*/
+
+/*this div has collection of images and headers and pragraphs*/
 .body .sec1{
   width: 50%;
   height: 400px;
@@ -153,6 +172,9 @@ height: 330;
 #three >p{
   color: #868282;
 }
+/*close of the div*/
+
+/*this is the footer has four icon(links) of facebook , twitter,instagram and envelope*/
 .icon{
   padding-left: 400px;
 }
@@ -168,20 +190,23 @@ text-align: center;
   color: #000;
   text-decoration: none;
 }
-.footer2{
+/*close of the div*/
+
+/*this div has the end of templet that has the copyright and some links*/
+.end{
   padding-top: 8px;
   padding-bottom: 30px;
   text-align: center;
   font-size: 15px;
   font-family: sans-serif;
 }
-.footer2 .fig >a{
+.end .fig >a{
   text-decoration: underline;
   
   color: black;
   
 }
-.footer2 .fig >a:hover{
+.end .fig >a:hover{
   text-decoration: none;
 }
-
+/*close of the div*/

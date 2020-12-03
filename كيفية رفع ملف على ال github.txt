@@ -1,0 +1,41 @@
+DELL@DESKTOP-AOF770J MINGW64 /e/projects
+$ cd "testing"
+
+DELL@DESKTOP-AOF770J MINGW64 /e/projects/testing (master)
+$ git init
+Reinitialized existing Git repository in E:/projects/testing/.git/
+
+DELL@DESKTOP-AOF770J MINGW64 /e/projects/testing (master)
+$ git add .
+
+DELL@DESKTOP-AOF770J MINGW64 /e/projects/testing (master)
+$ git commit -m "templet"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-AOF770J MINGW64 /e/projects/testing (master)
+$ git commit -a
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-AOF770J MINGW64 /e/projects/testing (master)
+$ git remote add hager https://github.com/hagertawfik/hager-tawfik.git
+
+DELL@DESKTOP-AOF770J MINGW64 /e/projects/testing (master)
+$ git push -u hager master
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (34/34), done.
+Writing objects: 100% (41/41), 1.38 MiB | 29.00 KiB/s, done.
+Total 41 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/hagertawfik/hager-tawfik.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'hager'.
+
+DELL@DESKTOP-AOF770J MINGW64 /e/projects/testing (master)
